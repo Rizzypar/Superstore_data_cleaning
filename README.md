@@ -21,7 +21,7 @@ Data pre-processing procedures:
 Please feel free to add any further validation checks you may deem necessary to ensure the accuracy of the dataset.
 
 
-##Notes: Pandas used, basics overview
+### Notes: Pandas used, basics overview
 
 * Check the overview of the dataset first
 .describe - checks the mean,std etc of the dataset
@@ -32,5 +32,5 @@ Please feel free to add any further validation checks you may deem necessary to 
 * check for empty rows
 #to remove empty rows
 df1.dropna(inplace = True)                      # Remove rows with NaN
-# convert the 'Date' column to datetime format
+#convert the 'Date' column to datetime format
 df['Date']= pd.to_datetime(df['Date'])
