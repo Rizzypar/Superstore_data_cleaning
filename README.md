@@ -17,9 +17,6 @@ Data pre-processing procedures:
 
 * Step 4: Export the cleaned dataset as a.csv file in step 4 using your preferred UTF-8 encoding.
 
-* Step 5: Using the credentials provided in the "Database Details" Tab, convert the preprocessed dataset into a SQL file and import it into the "superstore" table.
-Please feel free to add any further validation checks you may deem necessary to ensure the accuracy of the dataset.
-
 
 ### Notes: Pandas used, basics overview
 
